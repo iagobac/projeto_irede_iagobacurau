@@ -1100,7 +1100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 63da5730fab65b9428abf72cf212c4cb, type: 3}
       propertyPath: m_Name
-      value: Bench (1)
+      value: Banco2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1209,7 +1209,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1872238167}
+    m_TransformParent: {fileID: 2136546089}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_LocalScale.x
@@ -1265,7 +1265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_Name
-      value: Plant FBX
+      value: Planta1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1801,7 +1801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8b0f0940fcc11204e8009052b461067f, type: 3}
       propertyPath: m_Name
-      value: CottageFBX
+      value: Casa
       objectReference: {fileID: 0}
     - target: {fileID: 7025420853023822840, guid: 8b0f0940fcc11204e8009052b461067f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2326,7 +2326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da439360f13a666488633636cb27289c, type: 3}
       propertyPath: m_Name
-      value: Car
+      value: carro
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5197,7 +5197,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1872238167}
+    m_TransformParent: {fileID: 2136546089}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_LocalScale.x
@@ -5213,7 +5213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.13
+      value: 0.12999988
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5253,7 +5253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_Name
-      value: Plant FBX (1)
+      value: Planta2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -7470,7 +7470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 63da5730fab65b9428abf72cf212c4cb, type: 3}
       propertyPath: m_Name
-      value: Bench
+      value: Banco1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7888,7 +7888,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1872238167}
+    m_TransformParent: {fileID: 2136546089}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_LocalScale.x
@@ -7944,7 +7944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2577aaa85d588c944b9dcde9804958d5, type: 3}
       propertyPath: m_Name
-      value: Plant FBX (2)
+      value: Planta3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -9437,7 +9437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 66c821e6f11db48428ace156090d920a, type: 3}
       propertyPath: m_Name
-      value: Ball FBX
+      value: Bola
       objectReference: {fileID: 0}
     - target: {fileID: 6807715437884265811, guid: 66c821e6f11db48428ace156090d920a, type: 3}
       propertyPath: m_LocalScale.x
@@ -11173,9 +11173,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 163733891}
-  - {fileID: 831552086}
-  - {fileID: 1252364420}
+  - {fileID: 2136546089}
   - {fileID: 300133328}
   - {fileID: 257353621}
   - {fileID: 1172821296}
@@ -12673,6 +12671,40 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.034548517, y: 0.00051147584, z: 0.000073043164}
     m_Extent: {x: 0.0009967126, y: 0.0020704698, z: 0.0044533596}
   m_DirtyAABB: 0
+--- !u!1 &2136546088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2136546089}
+  m_Layer: 0
+  m_Name: Vegetacao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2136546089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136546088}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 163733891}
+  - {fileID: 831552086}
+  - {fileID: 1252364420}
+  m_Father: {fileID: 1872238167}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,0 +1,11 @@
+Projeto: Casa de campo
+Autor: Iago Franco Bacurau
+Trilha 1
+
+O projeto desenvolvido tem como objetivo representar um ambiente confortável e acolhedor de uma casa de campo em Realidade Virtual. A cena foi construída utilizando diferentes objetos 3D, incluindo bancos, plantas decorativas, uma casa de campo e cercados com cerca branca, criando um cenário harmonioso e visualmente reconhecível.
+
+Todos os objetos do ambiente possuem componentes de colisão (Box Collider), permitindo maior interação e consistência na navegação do usuário dentro da cena. Além disso, foi adicionada uma bola de futebol interativa, que pode ser manipulada e agarrada pelo usuário, proporcionando uma experiência mais dinâmica e imersiva.
+
+O ambiente conta com plano de chão, skybox configurada e organização adequada dos elementos na hierarquia do projeto, seguindo boas práticas de desenvolvimento na Unity.
+
+Não foi possível realizar testes utilizando o simulador de VR devido a limitações técnicas do equipamento utilizado durante o desenvolvimento. Entretanto, o projeto foi estruturado e configurado para compatibilidade com o Meta XR SDK e futura execução em dispositivos Meta Quest.
